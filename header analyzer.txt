@@ -1,0 +1,12 @@
+Return-Path: <noreply@apple-support-alert.ru>
+Received: from mail.fake-server.com ([185.200.118.42])
+    by mx.example.com with ESMTP id X1A2B3C4D5
+    for <user@example.com>; Mon, 24 Jun 2025 06:23:45 +0000
+Received-SPF: Fail (example.com: domain of noreply@apple-support-alert.ru does not designate 185.200.118.42 as permitted sender)
+Authentication-Results: mx.example.com;
+    spf=fail (sender IP is 185.200.118.42)
+    dkim=fail (bad signature)
+    dmarc=fail (policy=reject)
+From: Apple Support <support@apple-secure-login.com>
+To: user@example.com
+Subject: [Urgent] Your Apple ID has been locked due to suspicious activity
